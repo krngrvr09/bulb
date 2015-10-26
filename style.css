@@ -1,5 +1,5 @@
 html, body {
-                font-family: Georgia, serif;
+                font-family: 'Indie Flower', cursive;
                 font-style: italic;
                 font-size: 4.2vmin;
                 line-height: 4.7vmin;
@@ -9,6 +9,7 @@ html, body {
                 height: 100%;
                 background-image: url("room_wallpaper.jpg");
                 z-index: -1;
+
             /*    background: rgba(66,39,71,1);
                 background: -moz-linear-gradient(top, rgba(66,39,71,1) 0%, rgba(43,25,46,1) 73%, rgba(19,11,20,1) 100%);
                 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,39,71,1)), color-stop(73%, rgba(43,25,46,1)), color-stop(100%, rgba(19,11,20,1)));
@@ -171,7 +172,8 @@ html, body {
                 position: fixed;
                 width: 94%;
                 text-align: center;
-                bottom: 30%;
+                bottom: 70%;
+                right: 30%;
                 padding: 0 3%;
                 z-index:1;
             }
